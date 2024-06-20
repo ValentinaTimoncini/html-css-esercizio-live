@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#app{
+    background-color: rgb(239, 173, 72);
+    height: 100vh;
+    padding-top: 100px;
+} 
+
+.box{
+    border: 10px red solid;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    background-color: green;
+}
+
+.contenuto{
+    color: blue;
+    text-transform: uppercase;
+    line-height: 490px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow:
+    3px 3px 2px #000,
+    -3px 3px 2px #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
+}
+
+.box:hover > p{
+    color: blueviolet;
+}
